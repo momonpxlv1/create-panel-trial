@@ -42,6 +42,8 @@ Pengguna tidak punya akun di FreePanel. Panel mereka dikenali dari IP, jadi hala
 
 **Untuk admin**
 
+- Login admin klick 5x logo akan mentriger modul login admin
+- settings login dan password admin kalian ubah di dalam .env
 - Konfigurasi lengkap dari dashboard, tanpa edit file: domain panel, API key, daftar egg, resource per panel, masa trial, cooldown, rules, dan tombol buka tutup pembuatan panel.
 - Tes koneksi ke Pterodactyl yang mengecek kedua API key dan menghitung egg yang terbaca.
 - Daftar panel dengan pencarian, filter status (aktif, hampir habis, kadaluarsa, permanen, minta perpanjang), detail kredensial, perpanjang 7 atau 30 hari, jadikan permanen, cek status server, dan hapus.
