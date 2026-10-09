@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="FreePanel - Panel Pterodactyl gratis, 1 IP 1 panel">
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .sans{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+    .ln{opacity:0;animation-duration:10s;animation-iteration-count:infinite;animation-timing-function:ease-out}
+    .l1{animation-name:a1}.l2{animation-name:a2}.l3{animation-name:a3}.l4{animation-name:a4}.l5{animation-name:a5}
+    @keyframes a1{0%,6%{opacity:0;transform:translateX(-8px)}10%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+    @keyframes a2{0%,16%{opacity:0;transform:translateX(-8px)}20%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+    @keyframes a3{0%,26%{opacity:0;transform:translateX(-8px)}30%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+    @keyframes a4{0%,38%{opacity:0;transform:translateX(-8px)}42%,90%{opacity:1;transform:none}96%,100%{opacity:0}}
+    @keyframes a5{0%,52%{opacity:0}56%,90%{opacity:1}96%,100%{opacity:0}}
+    .bar{transform-origin:0 0;animation:fill 10s infinite;transform:scaleX(0)}
+    @keyframes fill{0%,6%{transform:scaleX(0)}50%{transform:scaleX(1)}90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}
+    .dot{animation:pulse 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.7);opacity:.35}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .tag{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @media (prefers-reduced-motion:reduce){.ln,.bar,.dot,.cur,.tag{animation:none;opacity:1;transform:none}}
+  </style>
+
+  <rect x="10" y="10" width="880" height="280" fill="#0f0f0f"/>
+  <rect x="4" y="4" width="880" height="280" fill="#f7f6f1" stroke="#0f0f0f" stroke-width="3"/>
+
+  <g class="tag">
+    <rect x="40" y="40" width="190" height="26" fill="#e8f0ea" stroke="#0f0f0f" stroke-width="1.5"/>
+    <circle class="dot" cx="56" cy="53" r="4" fill="#2d5a3d"/>
+    <text x="70" y="58" class="mono" font-size="12" font-weight="700" fill="#0f0f0f">1 IP = 1 PANEL</text>
+  </g>
+
+  <text x="40" y="140" class="sans" font-size="72" font-weight="800" fill="#0f0f0f" letter-spacing="-2">FreePanel</text>
+  <rect x="42" y="152" width="270" height="6" fill="#2d5a3d"/>
+
+  <text x="40" y="196" class="sans" font-size="18" fill="#2a2a2a">Panel Pterodactyl gratis, jadi dalam detik.</text>
+  <text x="40" y="222" class="sans" font-size="15" fill="#6b6b6b">Isi nama, pilih egg, data login langsung dibuatkan.</text>
+  <text x="40" y="262" class="mono" font-size="12" fill="#6b6b6b">by momonpxl  /  React + Express  /  MIT</text>
+
+  <g transform="translate(480,36)">
+    <rect x="6" y="6" width="380" height="216" fill="#2d5a3d"/>
+    <rect width="380" height="216" fill="#0f0f0f" stroke="#0f0f0f" stroke-width="2"/>
+    <rect width="380" height="30" fill="#2a2a2a"/>
+    <circle cx="16" cy="15" r="5" fill="#ff5f56"/><circle cx="32" cy="15" r="5" fill="#ffbd2e"/><circle cx="48" cy="15" r="5" fill="#27c93f"/>
+    <text x="68" y="19" class="mono" font-size="11" fill="#9a9a9a">create-panel.log</text>
+
+    <g class="mono" font-size="14">
+      <g class="ln l1"><text x="18" y="62" fill="#6b6b6b">00:01</text><text x="72" y="62" fill="#9a9a9a">user</text><text x="124" y="62" fill="#f7f6f1" font-weight="700">momon</text></g>
+      <g class="ln l2"><text x="18" y="90" fill="#6b6b6b">00:01</text><text x="72" y="90" fill="#9a9a9a">pass</text><text x="124" y="90" fill="#f7f6f1" font-weight="700">momon****</text></g>
+      <g class="ln l3"><text x="18" y="118" fill="#6b6b6b">00:02</text><text x="72" y="118" fill="#9a9a9a">mail</text><text x="124" y="118" fill="#f7f6f1" font-weight="700">momon@domain.id</text></g>
+      <g class="ln l4"><text x="18" y="146" fill="#6b6b6b">00:03</text><text x="72" y="146" fill="#9a9a9a">stat</text><text x="124" y="146" fill="#4ade80" font-weight="700">[OK] panel dibuat</text></g>
+      <g class="ln l5"><text x="18" y="182" fill="#4ade80">$</text><rect class="cur" x="34" y="169" width="9" height="16" fill="#f7f6f1"/></g>
+    </g>
+    <rect x="18" y="198" width="344" height="4" fill="#2a2a2a"/>
+    <rect class="bar" x="18" y="198" width="344" height="4" fill="#4ade80"/>
+  </g>
+</svg>
